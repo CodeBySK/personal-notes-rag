@@ -1,0 +1,72 @@
+PYTHON PROGRAMMING — COMPLETE GUIDE
+
+1.  Introduction to Python Python is a high-level, interpreted
+    programming language known for readability and simplicity.
+
+2.  Key Features
+
+-   Easy to learn and use
+-   Interpreted language
+-   Dynamically typed
+-   Extensive libraries
+
+3.  Basic Syntax
+
+Hello World: print(“Hello, World!”)
+
+Variables: x = 10 name = “Alice”
+
+Data Types: - int - float - str - list - tuple - dict - set
+
+4.  Control Flow
+
+If Statement: if x > 5: print(“x is greater than 5”)
+
+Loops: for i in range(5): print(i)
+
+while x > 0: x -= 1
+
+5.  Functions
+
+def add(a, b): return a + b
+
+6.  Lists
+
+my_list = [1, 2, 3] my_list.append(4)
+
+7.  Dictionaries
+
+my_dict = {“name”: “Alice”, “age”: 25} print(my_dict[“name”])
+
+8.  Object-Oriented Programming
+
+class Person: def init(self, name): self.name = name
+
+    def greet(self):
+        print("Hello " + self.name)
+
+9.  File Handling
+
+with open(“file.txt”, “r”) as f: data = f.read()
+
+10. Error Handling
+
+try: x = int(“abc”) except ValueError: print(“Conversion failed”)
+
+11. Libraries
+
+-   numpy
+-   pandas
+-   matplotlib
+-   requests
+
+12. Virtual Environments
+
+python -m venv env source env/bin/activate
+
+13. Summary
+
+Python is versatile and widely used in: - Web development - Data
+science - Automation - Machine learning
+
+End of Document

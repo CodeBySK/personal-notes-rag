@@ -1,0 +1,48 @@
+DATABASE NORMALIZATION — COMPLETE GUIDE
+
+1.  What is Normalization? Normalization is the process of organizing
+    data in a database to reduce redundancy and improve integrity.
+
+2.  Why Normalization Matters Prevents:
+
+-   Insert anomalies
+-   Update anomalies
+-   Delete anomalies
+
+3.  Key Concepts Functional Dependency: A → B means A determines B
+    Candidate Key: Minimal unique identifier Primary Key: Selected
+    candidate key Partial Dependency: Depends on part of composite key
+    Transitive Dependency: A → B → C
+
+4.  Normal Forms
+
+1NF: - Atomic values - No repeating groups
+
+2NF: - In 1NF - No partial dependency
+
+3NF: - In 2NF - No transitive dependency
+
+BCNF: - Every determinant must be a super key
+
+4NF: - No multi-valued dependencies
+
+5NF: - No join dependencies
+
+5.  Example Decomposition Original: Orders table with customer and
+    product info Decompose into:
+
+-   Customers
+-   Orders
+-   Products
+-   Suppliers
+
+6.  When Not to Normalize
+
+-   Performance-critical systems
+-   Analytics workloads
+
+7.  Summary 1NF: Atomic 2NF: No partial dependency 3NF: No transitive
+    dependency BCNF: Stronger 3NF 4NF: Multi-valued 5NF: Join
+    dependencies
+
+End of Document

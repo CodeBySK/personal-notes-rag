@@ -1,0 +1,12 @@
+[project]
+name = "personal-notes-powered-with-rags"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "faiss-cpu>=1.13.2",
+    "openai>=2.30.0",
+    "requests>=2.33.0",
+    "sentence-transformers>=5.3.0",
+]
